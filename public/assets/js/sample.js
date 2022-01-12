@@ -1,0 +1,1 @@
+var currentId,Global={currentId:void 0,action:"create",user:{userName:"Bob",email:"bgibilaro@valexander.com",extension:"2470"}};function bindEvents(){$("#aSomeLink").on("click",function(e){$a=$(this),$a=$(e.target);e.target.id}),$("#myTable").on("click","a[rel=delete],a[rel=edit]",function(e){$a=$(e.target),$a.attr("rel")})}$(document).ready(function(){bindEvents()});

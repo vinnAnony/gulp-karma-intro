@@ -1,0 +1,33 @@
+{
+  "name": "gulp-intro",
+  "version": "1.0.0",
+  "description": "Gulp Introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test -w": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinnAnony/introduction-to-gulp.git"
+  },
+  "author": "Vinn Njeru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinnAnony/introduction-to-gulp/issues"
+  },
+  "homepage": "https://github.com/vinnAnony/introduction-to-gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "jasmine": "^4.0.2",
+    "jasmine-core": "^4.0.0",
+    "jest": "^27.4.7",
+    "karma": "^6.3.10",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "sass": "^1.47.0"
+  }
+}
